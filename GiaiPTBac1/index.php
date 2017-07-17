@@ -15,7 +15,7 @@ and open the template in the editor.
             $a = $_POST["a"];
             $b = $_POST["b"];
             if ($a == 0){
-                if ($b==0){
+                if ($b == 0){
                     $nghiem="Phương trình có vô số nghiệm";                
                 }
                 if ($b<>0){
