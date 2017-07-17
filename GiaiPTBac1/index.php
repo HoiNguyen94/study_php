@@ -12,9 +12,9 @@ and open the template in the editor.
     <body>
     <?php
         if (isset($_POST["a"]) && isset($_POST["b"])){
-            $a=$_POST["a"];
-            $b=$_POST["b"];
-            if ($a==0){
+            $a = $_POST["a"];
+            $b = $_POST["b"];
+            if ($a == 0){
                 if ($b==0){
                     $nghiem="Phương trình có vô số nghiệm";                
                 }
